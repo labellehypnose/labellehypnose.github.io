@@ -1,0 +1,25 @@
+---
+layout: page
+title: Qu'est-ce que l'hypnose ?
+header: Posts By Tag
+group: navigation
+---
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+
+<div class="col-sm-10">
+    <p>
+        L’hypnose est un état naturel extraordinaire que nous expérimentons quotidiennement sans nous en rendre compte. Lorsque nous sommes distrait, rêveur, absorber par un film, un livre ou lorsque nous conduisons par exemple, nous sommes dans cet état modifié de conscience qu’on appelle l’hypnose.
+    </p>
+    <p>
+        C’est un moment durant lequel notre inconscient est en quelque sorte « open », c’est à dire qu’il capte beaucoup d’informations à notre insu, et les stocke quelque part dans notre cerveau.
+    </p>
+    <p>
+        Les outils qu’utilise le praticien en  hypnose pour faire accéder la personne à cet état modifié de conscience sont donc une véritable clé de coffre au trésor! Car il est possible grâce aux inductions hypnotiques d’entrer en contact avec cet inconscient qui cache une véritable mine d’or de potentiels, de ressources, de croyances, d’apprentissages (bons ou mauvais) dans lesquelles la personne va aller puiser pour générer de nouvelles capacités, se défaire d'habitudes et de mécanismes limitants, mettre en place des transferts de compétences et accéder au meilleur de Soi!
+    </p>
+</div>
+<div class="col-sm-2"></div>
+
+<div class="clearfix"></div>

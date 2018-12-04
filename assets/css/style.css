@@ -8,8 +8,14 @@ body{
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #2c3e50;
+	background: linear-gradient(#884f7e, #fff);
 	color: #fff;
+}
+
+.sidebar .text-center a {
+	color: #222;
+	font-size: 13px;
+	font-weight: bolder;
 }
 
 .sidebar-header {
@@ -92,7 +98,7 @@ article .share .gplus:hover {
     }
 }
 
-article{
+article {
 	margin-bottom: 40px;
 }
 
@@ -100,6 +106,12 @@ article{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.article_body .image {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
 
 .post-date {
 	text-transform: uppercase;
