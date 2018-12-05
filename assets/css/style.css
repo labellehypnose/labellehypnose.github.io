@@ -88,7 +88,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: #0000A0;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -109,6 +109,7 @@ article {
 
 .article_body .image {
 	width: 90%;
+	max-width: 700px;
 	margin-bottom: 20px;
 }
 
@@ -128,6 +129,7 @@ article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decora
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
 article.home h1,
 article.home h2,
 article.home h3,
@@ -135,14 +137,14 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #0000b6;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #0000B6;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
@@ -199,5 +201,11 @@ footer {
 
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
+}
+
+.small-navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
