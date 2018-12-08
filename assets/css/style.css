@@ -12,7 +12,7 @@ body{
 	color: #fff;
 }
 
-.sidebar .text-center a {
+.sidebar .text-center {
 	color: #222;
 	font-size: 13px;
 	font-weight: bolder;
@@ -44,9 +44,16 @@ a.nav-link:hover { color: #777; }
 
 #bio {
 	font-family: "Courier New", Courier, monospace;
-	font-size: 11px;
+	font-size: 13px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+}
+
+.contact {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
 }
 
 #contact-list li .fa,
@@ -89,7 +96,7 @@ article .share .gplus:hover {
 
 .page-header {
 	color: #0000A0;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	border-bottom: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,6 +118,10 @@ article {
 	width: 90%;
 	max-width: 700px;
 	margin-bottom: 20px;
+}
+
+.article_body img {
+	max-height: 400px;
 }
 
 
@@ -150,7 +161,7 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #0000FF;
 }
 
 .author .author-image {

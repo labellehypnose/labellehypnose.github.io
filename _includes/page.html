@@ -1,5 +1,36 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+<div class="hidden-xs">
+  <div class="page-header">
+    <ul class="nav nav-tabs">
+      <li role="presentation">
+        <a href="{{ site.BASE_PATH}}/">Accueil</a>
+      </li>
+      <li role="presentation">
+        <a href="{{ site.BASE_PATH}}/{{ site.hypnose_path}}">Qu'est-ce que l'hypnose ?</a>
+      </li>
+      <li role="presentation" class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          A chacun son hypnose <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li role="presentation">
+            <a href="{{ site.BASE_PATH }}/2018/12/08/hypnose-et-stress.html">hypnose et stress</a>
+          </li>
+          <li role="presentation">
+            <a href="{{ site.BASE_PATH }}/2018/11/26/hypnose-et-sommeil.html">hypnose et sommeil</a>
+          </li>
+          <li role="presentation">
+            <a href="{{ site.BASE_PATH }}/2018/12/01/hypnose-et-tabac.html">hypnose et tabac</a>
+          </li>
+          <li role="presentation">
+            <a href="{{ site.BASE_PATH }}/2018/11/28/hypnose-et-alcool.html">hypnose et troubles de l'alcoolisme</a>
+          </li>
+        </ul>
+      </li>
+      <li role="presentation">
+        <a href="{{ site.BASE_PATH}}/{{ site.about_path }}">A propos</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
 {{ content }}

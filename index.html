@@ -8,15 +8,8 @@ tagline:
 <article class="home">
 
   <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
+{% assign dy = post.date | date: "%a" %}{% case dy %}{% when "Mon" %}Lundi{% when "Tue" %}Mardi{% when "Wed" %}Mercredi{% when "Thu" %}Jeudi{% when "Fri" %}Vendredi{% when "Sat" %}Samedi{% when "Sun" %}Dimanche{% else %}{{ dy }}{% endcase %} {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' %}{{ d }}er{% else %}{{ d }}{% endcase %} {% assign m = post.date | date: "%-m" %}{% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ post.date | date: '%Y' }}
+
   </span>
 
   <h2>
@@ -48,26 +41,26 @@ tagline:
     {% if paginator.previous_page == 1 %}
     <a href="{{ site.BASE_PATH }}/">&larr; Newer</a>
     {% else %}
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Newer</a>
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.previous_page }}">&larr; Nouveaux</a>
     {% endif %}
   </li>
   {% else %}
   <li class="previous disabled">
-    <a>&larr; Newer</a>
+    <a>&larr; Nouveaux</a>
   </li>
   {% endif %}
   
   <li>
-    <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number">Page: {{ paginator.page }} sur {{ paginator.total_pages }}</span>
   </li>
 
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Older &rarr;</a>
+    <a href="{{ site.BASE_PATH }}/{{ site.paginate_path | replace: ':num', paginator.next_page }}">Anciens &rarr;</a>
   </li>
   {% else %}
   <li class="next disabled">
-    <a>Older &rarr;</a>        
+    <a>Anciens &rarr;</a>
   </li>
   {% endif %}
 

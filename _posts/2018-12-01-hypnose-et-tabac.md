@@ -6,8 +6,6 @@ img: smoke
 comments: false
 ---
 
-« Arrêter de fumer est facile. J’y suis arrivé une dizaine de fois… » Oscar Wilde
-
 Les fumeurs ont déjà tous pour la plupart arrêté de fumer à un moment donné de leur vie. Ce qui reste difficile c’est finalement de continuer à ne plus fumer, ne pas reprendre. Rappelons que l’hypnose est à la fois un état particulier de conscience et les outils qu’utilise l’opérateur pour accéder à cet état de conscience non ordinaire. L’hypnose est donc une technique redoutable pour l’arrêt du tabac, car un fumeur ne contrôle pas son désir de fumer et c’est la raison pour laquelle arrêter de fumer de façon volontaire, donc consciente est si difficile. L’hypnose permet d’entrer en contact avec l’inconscient de la personne et d’accéder à de nouvelles facultés tout en se débarrassant des mauvaises habitudes.
 
 C’est une alternative efficace face aux méthodes actuelles, car elle permet de contourner en quelque sorte le problème sans s’y confronter de plein fouet ce qui génère souvent le stress lié au manque, au sentiment de privation, hors la personne va ici guidée par le praticien trouver le moyen en elle d’aller au-delà de ses capacités actuelles et découvrir une partie de soi qu’elle ne connaissait pas jusqu’à présent qui va lui offrir de nouvelles perspectives de vie sans tabac.

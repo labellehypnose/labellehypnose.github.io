@@ -19,7 +19,8 @@ defaults:
 description: hypnose
 author:
   name: dbyll
-  bio: Qu'est-ce que l'hypnose ?
+  bio: Accéder au meilleur de Soi
+  contact:
 
 about_path: about.html
 hypnose_path: hypnose.html
