@@ -32,3 +32,6 @@ BASE_PATH:
 
 plugins:
   - jekyll-paginate
+
+# Analytics
+google_analytics: UA-130587520-1
